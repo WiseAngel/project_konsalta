@@ -1,0 +1,241 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	.header, .footer
+		&-logo
+			margin-top: 7px
+			font-size: 18px
+			font-weight: bold
+		&-nav
+			ul
+				li 
+					margin-left: 20px
+		&-phone
+			margin-left: 0
+		
+		&-consult
+			margin-top: 1px
+			.btn
+				display: inline-block
+				padding: 8px 18px
+
+	.chance
+		&-li
+			a 
+				padding: 17px 20px
+
+	.publication
+		.mix 
+			width: 23%
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	.btn-perspective
+		a 
+			padding: 12px 24px
+	.header, .footer
+		&-logo
+			margin-top: 7px
+			font-size: 20px
+			font-weight: bold
+		&-nav
+			display: none
+			
+			&__active
+				display: block
+			ul
+				padding-top: 30px
+				li 
+					display: block
+					margin-left: 0
+					padding-top: 15px
+					a
+						&:after
+							transform: translateX(50%) translateY(-7px) scale(0)
+						&:hover
+							&:after
+								transform: translateX(100%) translateY(-7px) scale(1)
+		&-phone
+			margin-left: 0
+		
+		&-consult
+			margin-top: 1px
+			.btn
+				display: inline-block
+				padding: 8px 18px
+
+	nav
+		.hamburger
+			display: block
+
+	.services
+		text-align: left
+		&-block
+			margin-top: 50px
+			padding-left: 2%
+		&-button
+			text-align: center
+	
+	.hero
+		&-slider
+			.hero-slide
+				padding: 24px 0
+				&-text
+					.h3
+						font-size: 24px
+	.chance
+		&-wrap
+			.chance-li
+				padding: 7px 0
+				a 
+					padding: 12px 8px
+					font-size: 13px
+
+	.recommend
+		&-buttons
+			.rec-btn
+				padding: 14px 30px 14px 110px
+				&-blue
+					margin-left: 20px
+
+	.publication
+		.mix 
+			width: auto
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	.header, .footer
+		padding-left: 5%
+		&-phone
+			margin-top: 50px
+			margin-bottom: 20px
+		&-consult
+			text-align: left
+	.hero
+		&-button
+			display: block
+		&-slider
+			.hero-slide
+				padding-top: 0
+				&:before
+					font-size: 200px
+					right: 0
+				&-text
+					.h3
+						font-size: 34px
+				&-img
+					display: none
+
+	.chance
+		&-wrap
+			.chance-li
+				width: 80%
+				margin: 0 auto
+				display: block
+				padding: 7px 0
+				a 
+					font-size: 16px
+		&-info
+			margin-top: 50px
+			text-align: center
+			img
+				width: 90%
+				height: auto
+			.btn-perspective-chance
+				right: 3%
+
+	.recommend
+		&-buttons
+			margin-top: 20px
+			.rec-btn
+				margin: 30px
+				padding: 14px 50px 14px 120px
+				&-blue
+					margin-bottom: 0
+					
+	.publication
+		&-wrap
+			.publication-li
+				padding: 10px 30px
+
+	.faq
+		&-tabs
+			padding-bottom: 0
+		&-tab_content
+			padding-bottom: 30px
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px)
+	.services
+		text-align: center
+		&-block
+			a 
+				display: block
+
+	.feedback
+		&-block
+			&-img
+				&:after
+					display: none
+		.owl-carousel
+			.owl-item
+				img
+					width: 100%
+
+	.recommend
+		&-buttons
+			margin-top: 0
+			.rec-btn
+				font-size: 14px
+				margin: 60px 0 0 0
+				padding: 14px 10px 14px 100px
+				&-blue
+				
+	.publication
+		&-wrap
+			.publication-li					
+				width: 80%
+		    margin: 0 auto
+		    display: block
+		    padding: 7px 0
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	.feedback
+		&-block
+
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
